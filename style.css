@@ -6,11 +6,16 @@ body {
 
 h1 {
     font-size: 50px;
-    ;
+
 }
 
-section {
+h2 {
+    font-size: 40px;
+}
+
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 
 
 }
@@ -28,7 +33,7 @@ section {
 
 .half-width {
     width: 50%;
-    padding: 5%;
+    padding-left: 2%;
 }
 
 .hire-me {
@@ -47,4 +52,37 @@ section {
 
 .name-color {
     color: orange;
+}
+
+.exp-year {
+    color: orange;
+
+}
+
+.box-area {
+
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+
+
+}
+
+#box-border {
+    border-left: 8px solid orange;
+
+}
+
+#box-l-border {
+    border-left: 8px solid blue;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
